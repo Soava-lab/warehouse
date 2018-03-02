@@ -1,0 +1,13 @@
+<?php
+namespace package;
+class Test{ protected $value;
+	public function __construct($value = null){
+		$this->value = $value;
+	}
+	public function index(){
+		return "Welcome to index...";
+	}
+	public function one(){
+		return "Welcome to one...";
+	}
+}
